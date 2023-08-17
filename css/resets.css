@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Tilt+Prism&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Josefin+Sans:wght@300;600&family=Tilt+Prism&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1;
-    font-family: "Handjet";
+    /*font-family: "Josefin Sans";*/
     font-weight: bolder;
 }
 img {
     display:block;
     max-width:100%;
+}
+
+input, input::placeholder{
+    font-family: inherit;
 }

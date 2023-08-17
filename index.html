@@ -8,7 +8,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body><!--Don't make body a flex box-->
+<div class="page-wrapper">
+    <main class="left-side">
+        <div class="left-side-inner">
+            <div class="logo-wrapper">
+                <img src="img/Combined%20Shape.svg" class="logo">
+                <img src="img/logo-words.svg"class="logo_words">
+            </div>
+            <div class="text-container">
+                <h1><span>We're</span> Coming Soon</h1>
+                <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+                <form id="newsletter" class="newsletter">
+                    <label>
+                        <input type="text" placeholder="Email Address" id="email" name="email">
+                    </label>
+                    <button type="submit" class="button"><img src="img/Path.svg" class="button-icon" alt="button"> </button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="right-side">
 
+    </div>
+</div>
 </body>
 </html>
